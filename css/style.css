@@ -1,0 +1,591 @@
+.popup {
+  padding: 0;
+  position: fixed;
+  top: 23px;
+  left: 23%;
+  width: 50%;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #f0f0ee;
+  z-index: 100;
+  behavior: url(PIE.htc); 
+  padding-bottom: 25px;
+}
+
+h2 {
+      text-align: center;
+    padding-top: 15px;
+}
+
+.nav-block {
+  background-color: white;
+  text-align: center;
+  padding: 0px 0 10px 0;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  z-index: 3;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  transition: all 0.4s ease;
+}
+
+.nav-block .sticky {
+font-size: 24px;
+height: 48px;
+background: #efc47D;
+text-align: left;
+padding-left: 20px;
+transition: all 0.4s ease;
+}
+
+.info-up-nav {
+
+  float: right;
+  color: #cfcfcf;
+  text-transform: none !important;
+}
+
+.info-up-nav i {
+  margin-right: 3px;
+}
+
+.info-up-nav ul, .soc-info-up ul {
+  padding-top: 0px; 
+  padding-left: 20px;
+}
+
+.soc-info-up i {
+  float: none !important;
+  font-size:17px;
+  color: #cfcfcf;
+}
+
+.soc-info-up {
+  float: left !important;
+  margin-top: -8px;
+}
+
+.soc-info-up li {
+  margin-right: 18px !important;
+}
+
+.logo {
+    width: 165px;
+    padding-top: 5px;
+}
+
+.info-up-nav ul {
+  padding: 0;
+}
+
+nav a {
+  color: #333;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px 0 30px 0;
+  background-color: #191919;
+  color: #eee
+}
+
+footer .logo-2 img{
+  width: 100%;
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: rgb(102,102,102);
+}
+
+
+
+/*=========== Footer page nav ================*/
+
+.footer-nav ul {
+  padding: 0;
+}
+
+.footer-nav ul a {
+  color: rgb(102,102,102);
+  transition: 0.5s;
+}
+
+.footer-nav ul a:hover {
+  color: #ddd;
+  transition: 0.9s;
+}
+
+.footer-nav ul li {
+  list-style: none;
+  text-align: left;
+  padding: 14px 0 9px 0 ; 
+  border-bottom: 1px solid rgba(102,102,102,0.2);
+}
+
+/*=========== Footer contact ================*/
+
+.footer-contact {
+  color: rgb(102,102,102);
+}
+
+.footer-contact i {
+  margin-right: 8px;
+}
+
+.footer-contact h3 {
+  color: #ddd;
+}
+
+.footer-contact ul {
+  padding: 0;
+}
+
+.footer-contact ul a {
+  color: rgb(102,102,102);
+  transition: 0.5s;
+}
+
+.footer-contact ul a:hover {
+  color: #ddd;
+  transition: 0.9s;
+}
+
+.footer-contact ul li {
+  list-style: none;
+  text-align: left;
+  padding: 14px 0 9px 0 ; 
+  border-bottom: 1px solid rgba(102,102,102,0.2);
+}
+
+/*================= Footer question ==================*/
+
+.footer-q ul {
+  padding: 0;
+}
+
+.footer-q p {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  color: rgba(102,102,102,0.35);
+}
+
+.footer-q ul a {
+  color: rgb(102,102,102);
+  transition: 0.5s;
+}
+
+.footer-q ul a:hover {
+  color: #ddd;
+  transition: 0.9s;
+}
+
+.footer-q ul li {
+  list-style: none;
+  text-align: left;
+  padding: 5px 0 0px 0 ; 
+  border-bottom: 1px solid rgba(102,102,102,0.2);
+}
+
+/*=========== Footer under ================*/
+
+.under-footer {
+  background-color: #111;
+  width: 100%;
+  height: 75px;
+  padding: 25px 0;
+}
+
+.under-footer ul {
+  float: right;
+}
+
+.under-footer i {
+  color: rgb(102,102,102);
+}
+
+.under-footer ul li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+.under-footer .soc-info-up {
+    margin-top: 0px !important;
+    float: right !important;
+}
+
+.nav-block ul li {
+  margin-top: 0px;
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 14px;
+  
+  font-weight: 900px;
+}
+
+.nav-block ul {
+  margin-top: 13px;
+  float: right;
+}
+
+.popup a.close {
+  width: 25px;
+  height: 25px;
+  display: block;
+  text-indent: -9999px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url(./img/close.png) no-repeat; 
+}
+
+.window-div {
+  padding: 5px;
+  text-align: left; }
+
+.window-div-2 {
+  display: block;
+  width: 60%;
+  float: left; }
+
+.window-right {
+  display: block;
+  width: 35%;
+  float: right; }
+
+.window-right img {
+  margin-top: 30px; }
+
+.window-right h3 {
+  margin-top: 20px; }
+
+.window-bottm {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 20px; }
+
+.window-bottm input {
+  width: 30%;
+  margin-right: 20px;
+  height: 37px; }
+
+.window-bottm button {
+  width: 30%; }
+
+.window-bottm input[placeholder] {
+  text-align: center; }
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  background: #000;
+  opacity: .8;
+  z-index: 5; 
+}
+
+img {
+  width: 100%;
+}
+
+
+
+body {
+  background-image: url(./img/bgbg.png);
+  height: 1200px;
+
+}
+
+.block {
+  margin-top: 90px;
+}
+
+
+.block button{
+
+  display: block;
+  margin: 10px auto;
+
+}
+
+.white {
+  background-color: white;
+  padding-bottom: 40px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+/*
+.myButton {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Helvetica', cursive;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.myButton:hover, 
+.myButton:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.myButton:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+*/
+
+.myButton {
+  background: #ffed00;
+  background: -moz-linear-gradient(top, #ffed00 0%, #ffed00 0%, #ffa400 100%);
+  background: -webkit-linear-gradient(top, #ffed00 0%, #ffed00 0%, #ffa400 100%);
+  background: linear-gradient(to bottom, #ffed00 0%, #ffed00 0%, #ffa400 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffed00', endColorstr='#ffa400',GradientType=0 );
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
+  height: 40px;
+  padding: 0 30px;
+  color: #000;
+  box-shadow: 1px 4px 0 #ff7b00; 
+}
+
+.window-div button {
+  height: 38px;
+  font-size: 1.5rem;
+  margin-top: -6px;
+  display: inline-block;
+}
+
+
+img {
+  width: 100%;
+}
+
+.block a {
+  color:white;
+  font-size: 24px;
+}
+
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forma input {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 30%;
+  margin-right: 10px;
+  height: 36px;
+  border-radius: 3px;
+  border:none;
+}
+
+form button {
+  width: 30%;
+}
+
+.jumbotron {
+  margin-top: 10px;
+}
+
+.red {
+  font-size: 40px;
+  color:#ce2c2c;
+  font-weight: 400;
+}
+
+ input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+ input[type="text"]:focus,
+  input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+
+.one-forma {
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
+.forma-1 input , button {
+  display: block;
+  width: 30% !important;
+  margin-bottom: 20px;
+}
+
+.white button {
+  width: 70% !important;
+}
+
+.forma-1 {
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+
+.forma-2 input {
+  display: block;
+  width: 100% !important;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.forma-2 button {
+  float: right;
+ /* display: block;
+  margin: 0 auto;*/
+  width: 47% !important;
+}
+
+.forma-2 {
+  text-align: center;
+  padding: 20px 30px 65px 30px;
+  background-color: #f1f1f1;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+  .title {
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+textarea {
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+}
+
+textarea[placeholder]{
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (min-width : 1200px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.logo {
+    width: 120px;
+    padding-top: 11px;
+}
+
+.nav-block ul li {
+    margin-top: 0px;
+    display: inline-block;
+    margin-right: 0;
+    font-size: 12px;
+    font-weight: 900px;
+}
+
+.nav-block {
+  height: 50px;
+}
+
+.nav-block ul {
+    margin-top: 5px;
+    float: right;
+}
+
+.under-footer {
+    background-color: #111;
+    width: 100%;
+    height: 120px;
+    padding: 25px 0;
+}
+
+  .popup {
+    padding: 0;
+      padding-bottom: 25px !important;
+    position: fixed;
+    top: 3px;
+    left: 0%;
+    width: 87%;
+    display: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #f0f0ee;
+    z-index: 100;
+    behavior: url(PIE.htc);
+    margin: 0 7%;
+    height: 100%;
+
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.forma input {
+  width:100%;
+  display: block;
+}
+
+form button {
+  width: 100%;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+}
+
+.popup-but {
+  width: 32% !important;
+}
+
+/*==========  Desktop First Method  ==========*/
